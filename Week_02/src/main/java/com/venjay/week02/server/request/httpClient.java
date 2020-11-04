@@ -16,6 +16,7 @@ import java.io.IOException;
  **/
 public class httpClient {
     private static Logger logger = LoggerFactory.getLogger(httpClient.class);
+
     public static void main(String[] args) {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url("http://localhost:8808").build();
